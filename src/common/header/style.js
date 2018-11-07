@@ -43,11 +43,32 @@ export const Seaver=styled.input.attrs({
 })`
     width:160px;
     height:38px;
-    margin-top:9px ;
+    margin:9px 20px;
     padding:0 20px;
     border:none;
     outline:none;
     border-radius:19px; 
     box-sizing:border-box;                                                                                                                                                                                                                                                                                                                                                                                                                     
-    background:red;
+    background:#eee;
+    font-size:14px;
+    &::placeholder{
+        color:#999;
+    }
+`
+export const Addition = styled.div`
+    position:absolute;
+    right:0;
+    top:0;
+    height:56px;
+`
+export const Button = styled.button`
+    margin:9px 5px 0 15px;
+    height:38px;
+    background-color:transparent;
+    color:#ea6f5a;
+    line-height:24px;
+    width:80px;
+    border:1px solid rgba(236,97,73,.7);
+    border-radius:20px;
+    font-size:15px;
 `

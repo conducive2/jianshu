@@ -3,7 +3,9 @@ import {HeaderWrapper,
 Logo,
 Var,
 NavItem,
-Seaver
+Seaver,
+Addition,
+Button
 } from './style'
 export default class Haeder extends React.Component{
     render(){
@@ -17,6 +19,10 @@ export default class Haeder extends React.Component{
                     <NavItem className='right'>登录</NavItem>
                     <Seaver></Seaver>
                 </Var>
+                <Addition>
+                    <Button>注册</Button>
+                    <Button>写文章</Button>
+                </Addition>
             </HeaderWrapper>
         )
     }
